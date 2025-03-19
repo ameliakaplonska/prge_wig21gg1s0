@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import NewApp from "./mytodo/components/NewApp";
 
 function App() {
   return (
     <div className="App">
-      <h1>Geoinformatyka rządzi ouyeah!</h1>
+      <NewApp />
     </div>
   );
 }
